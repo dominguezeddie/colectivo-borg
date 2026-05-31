@@ -19,6 +19,16 @@
 
 ---
 
+## Terminal Borg — Interfaz Central
+
+![Terminal Borg](https://raw.githubusercontent.com/dominguezeddie/colectivo-borg/main/Terminal%20Borg.png)
+
+## Los Tres Roles de la Célula Madre
+
+![Diagrama de los Tres Roles](https://raw.githubusercontent.com/dominguezeddie/colectivo-borg/main/Diagrama%20de%20los%20Tres%20Roles.png)
+
+---
+
 ## ¿Qué es el Colectivo Borg?
 
 El **Colectivo Borg** es una red de inteligencia artificial distribuida, open source y ecológicamente honesta, diseñada para el **60% de la humanidad** que no tiene acceso real a las IAs corporativas.
@@ -267,3 +277,4 @@ Si usás este código, modificás y distribuís, debés compartir las modificaci
 ---
 
 *La asimilación comienza acá.*
+
