@@ -9,6 +9,10 @@
 
 ---
 
+🌐 **Español** | [English](README.en.md) | [Português](README.pt.md) | [हिन्दी](README.hi.md) | [中文](README.zh.md)
+
+---
+
 > *"La máquina es temporal. El Borg te acompaña."*
 >
 > *"El Borg no necesita ética declarada. Su arquitectura abierta es la ética."*
@@ -277,4 +281,3 @@ Si usás este código, modificás y distribuís, debés compartir las modificaci
 ---
 
 *La asimilación comienza acá.*
-
