@@ -1,0 +1,12 @@
+# Colectivo B.O.R.G. — Dependencias
+# ====================================
+# Filosofía: dependencias mínimas para correr en hardware de 2011.
+# El Embrión funciona con biblioteca estándar de Python 3.8+ solamente.
+
+# Opcional — detección automática de RAM y CPU (recomendado):
+# psutil>=5.9.0
+
+# Futuro Tejido — modelos tiny locales para microtareas reales:
+# openai-whisper==20231117   # transcripción de audio offline
+# Pillow>=10.0.0             # procesamiento de imágenes
+# numpy>=1.24.0              # cómputo numérico liviano

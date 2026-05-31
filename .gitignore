@@ -1,0 +1,34 @@
+# Colectivo B.O.R.G. — .gitignore
+
+# Reputación local (cada nodo tiene la suya)
+borg_reputacion.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Vocabularios locales (pueden contener datos personales)
+vocabulario_local.txt
