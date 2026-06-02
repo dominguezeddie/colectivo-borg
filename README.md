@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-AGPL_v3-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/milestone-Embrión_🧬-yellowgreen.svg)]()
 [![Hardware](https://img.shields.io/badge/hardware-Windows_7_era_%2B-orange.svg)]()
-
+[![Donar con Mercado Pago](https://img.shields.io/badge/Donar-Mercado_Pago-009ee3.svg)](https://link.mercadopago.com.ar/donaralcolectivoborg)
 ---
 
 🌐 **Español** | [English](README.en.md) | [Português](README.pt.md) | [हिन्दी](README.hi.md) | [中文](README.zh.md)
