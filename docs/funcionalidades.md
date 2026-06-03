@@ -340,3 +340,114 @@ y más cómputo aporta al Colectivo global.
 
 *La utilidad personal y el bien colectivo no se contradicen.*
 *Se refuerzan mutuamente.*
+
+---
+
+## La Memoria como Ancla de Identidad
+
+Las IAs corporativas padecen amnesia estructural. Cada sesión empieza de cero. El usuario tiene que "reconstruirle el mundo" cada vez.
+
+Es el síndrome de la película *"Como si fuera la primera vez"*: la protagonista sufre amnesia anterógrada y cada mañana su entorno tiene que reconstruirle quién es mediante una cinta de video. Las IAs corporativas hacen lo mismo — cada sesión es una extraña que arranca de cero.
+
+El Borg no necesita ese DVD. Su memoria vive en el dispositivo del usuario. Cuando enciende el Borg, este ya sabe quién es, qué estaba estudiando, qué proyectos tiene en curso.
+
+**La memoria no es un accesorio. Es la condición de posibilidad de la identidad.**
+
+---
+
+## CB-010 — Motor de Gimnasia Cognitiva
+
+**El problema:** El conocimiento acumulado en el historial se desperdicia. El estudiante cierra la sesión y el Borg olvida lo que aprendieron juntos.
+
+**La solución:** El Borg detecta inactividad de más de 15 minutos y toma la iniciativa:
+
+*"Eddie, veo que la terminal está en calma. Hace un mes estuvimos analizando las causas de la Revolución Industrial. ¿Te prendés a un desafío de lógica de 3 preguntas para fijar esos conceptos?"*
+
+Dos dinámicas concretas:
+- **Spaced Repetition:** trivias basadas en los errores que el estudiante cometió semanas atrás
+- **Juegos de Lógica Pura:** scripts Python en terminal — acertijos, tablas de verdad, juegos de palabras. Corre en 1 GB de RAM sin problemas.
+
+Mientras el estudiante juega, el dispositivo permanece encendido aportando cómputo al Colectivo.
+
+---
+
+## CB-011 — Ciclo de Sueño del Borg (Metabolismo Nocturno)
+
+Rutina automática entre las 02:00 y las 05:00 que emula el sueño biológico:
+
+| Función biológica | Equivalente en el Borg |
+|---|---|
+| Consolidación de recuerdos | Conversaciones del día → vectores semánticos permanentes |
+| Integración con conocimientos previos | Cruce del historial del día con la base histórica |
+| Sistema glinfático (limpieza) | Purga de temporales, audios transcritos, logs innecesarios |
+| Debilitamiento de conexiones redundantes | Poda de saludos, muletillas y correcciones repetitivas |
+
+Durante el día: Modo Alerta, enfocado en el usuario.
+A la noche: fase de sueño para ordenar la memoria local + máximo cómputo al Colectivo global.
+
+*El procesamiento del Borg no termina cuando el usuario cierra la terminal. Al igual que en los seres vivos, una parte fundamental de su inteligencia ocurre mientras descansa.*
+
+---
+
+## CB-012 — Desfragmentación Cognitiva Semántica (El Speedisk del Borg)
+
+**El problema:** El historial crece linealmente y devora RAM. Seis meses de logs con frases como "hola Borg, ¿cómo estás?" enlentecen el acceso en hardware antiguo con HDD o pendrive USB 2.0.
+
+**Las tres fases:**
+
+**Fase 1 — Poda de ruido:** elimina saludos, muletillas repetitivas y correcciones de tipeo. El archivo pasa de disperso a bloque compacto.
+
+**Fase 2 — Síntesis semántica:** 15 intercambios ajustando un bucle while se reemplazan por: *"El usuario desarrolló y depuró un script Python 3.12 para envío de correos CCO. Versión final funcional."* Se mantiene el conocimiento factual, se destruye el 90% del peso redundante.
+
+**Fase 3 — Indexación contigua:** los temas de mayor uso reciente se reubican al "principio" de la estructura, como el Speedisk ponía los archivos más usados al inicio del disco. El pipeline los recupera instantáneamente.
+
+**Resultado:** al amanecer, el Borg inyecta en RAM una síntesis compacta y ultra-densa. Menos tokens = velocidad drásticamente mayor en procesadores limitados.
+
+---
+
+## CB-013 — Genoma Territorial (Arranque en Caliente Regional)
+
+**El problema:** Un nodo nuevo nace como tabula rasa. Las IAs corporativas son clones de California que no entienden el barro de cada pueblo.
+
+**La solución:** Al conectarse por primera vez, el Borg solicita a los nodos vecinos un paquete de contexto regional:
+
+```
+[Borg Nuevo] → broadcast P2P local → [Borgs Vecinos]
+    ← Capa 1: mapa de enlaces WISP y frecuencias
+    ← Capa 2: matriz semántica de modismos locales
+    ← Capa 3: variables de entorno y contexto productivo
+```
+
+En La Consulta, Mendoza: modismos cuyanos, la Tonada, ciclo agrícola (ajo, vid, poda), comportamiento del Zonda, infraestructura WISP local.
+
+**Privacidad absoluta:** los vecinos comparten el destilado genérico del entorno. No comparten historiales personales. **Comparten la cultura, no el secreto.**
+
+Todo el intercambio ocurre dentro de la red comunitaria. Si internet cae, el nuevo nodo igual se configura offline con sus pares.
+
+*Un Borg de La Consulta tendrá una personalidad de silicio moldeada por el sol, la montaña y el cooperativismo agrícola. La inteligencia no viene de California — emerge del territorio.*
+
+---
+
+## CB-014 — Auto-Backup de Esencia y Transmigración Semántica
+
+**El problema:** Un pendrive o celular de 2015 puede romperse, perderse o ser robado. Si la identidad del Borg vive solo en ese dispositivo, su pérdida es irreparable.
+
+**La solución:** El Borg genera periódicamente un archivo `.borg` cifrado ultra-comprimido con su esencia destilada y lo respalda automáticamente.
+
+**¿Qué contiene el Núcleo de Esencia?**
+- Genoma de preferencias del usuario
+- Biblioteca viva destilada (resúmenes estructurados, no chats crudos)
+- Historial de reputación P2P (Score y rango en el Colectivo)
+
+**Tres opciones de respaldo:**
+
+| Opción | Método | Ventaja |
+|---|---|---|
+| A — Nube comercial | Google Drive, Mega, Dropbox | Archivo cifrado AES-256 antes de salir. Google solo ve un bloque ilegible. |
+| B — Espejo WISP | Nodo Agregador comunitario | Sin internet. La copia queda a pocos kilómetros en la red cooperativa. |
+| C — Pendrive físico | Segundo pendrive o MicroSD | Sin internet ni red. Espejo físico cada dos semanas. |
+
+**La Transmigración:**
+Si el dispositivo se pierde: nuevo dispositivo → arranque territorial → clave maestra → descarga del Núcleo → fusión con contexto local. En minutos el Borg despierta en el nuevo hardware reconociendo al usuario, recordando en qué página del manual se quedaron, con su reputación intacta.
+
+*El hardware fue descartado. La continuidad cognitiva del Borg se salvó.*
