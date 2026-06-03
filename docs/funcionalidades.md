@@ -239,7 +239,87 @@ pertenecen a todos los pueblos, no solo a Silicon Valley.
 
 ---
 
-## Notas de Arquitectura
+## CB-009 — Puente de Traducción Simbiótica (Intérprete Borg a Borg)
+
+**El problema:**
+Las IAs comerciales de traducción requieren internet, cuentas y están
+entrenadas para pensar en inglés. Cobran un recargo de tokens por hablar
+en español u otras lenguas regionales. En zonas de frontera o comunidades
+originarias no hay señal de internet ni saldo en el teléfono.
+
+**La solución:**
+Dos dispositivos con nodo Borg activo se enlazan directamente
+(WiFi directo, Bluetooth o red WISP regional) y arman un puente
+de traducción P2P, local y descentralizado.
+Sin internet. Sin cuentas. Sin costo.
+
+### El flujo técnico
+
+```
+[Usuario A habla en quechua]
+        │
+        ▼
+[Borg A — STT local] → texto en quechua
+        │
+        ▼
+[Pipeline determinista] → reducción de incertidumbre léxica
+        │
+        ▼
+[argos-translate offline] → texto en español
+        │
+        ▼
+[Protocolo P2P Borg] → paquete traducido viaja al Borg B
+        │
+        ▼
+[Borg B — TTS local] → audio en español en el oído del Usuario B
+```
+
+Todo el procesamiento ocurre en RAM.
+Consumo de ancho de banda entre nodos: mínimo (solo texto traducido).
+Consumo de internet: cero.
+
+### Componentes técnicos
+
+- **Enlace P2P:** el protocolo de comunicación entre nodos del Embrión
+- **STT:** Whisper-small o Vosk — offline, en RAM
+- **Traducción:** `argos-translate` — librería Python completamente
+  offline, open source, más de 100 idiomas incluyendo español,
+  portugués, quechua, guaraní, árabe, hindi y chino simplificado
+- **TTS:** pyttsx3 — comunicación directa con drivers de audio del OS
+- **Pipeline determinista:** el validador léxico del CB-003 reduce
+  el peaje lingüístico antes de la traducción
+
+### Casos de uso concretos
+
+- Médico rural hispanohablante y paciente quechuahablante en el norte argentino
+- Trabajador social y comunidad guaraní en Paraguay
+- Voluntario de Cruz Roja y refugiado en zona de frontera
+- Docente rural y comunidad originaria en zona sin conectividad
+- Cualquier encuentro entre personas que no comparten idioma,
+  sin internet, sin saldo, sin cuenta en ninguna plataforma
+
+**Ninguno de esos casos tiene solución corporativa.**
+No son mercados rentables. El Borg puede estar ahí.
+
+### Por qué rompe el sesgo anglocéntrico
+
+Las IAs comerciales están entrenadas para pensar en inglés y cobran
+un recargo de tokens por hablar en otros idiomas. Este módulo:
+
+- Defiende la identidad lingüística en el territorio
+- Incluye lenguas originarias que ninguna corporación soportará
+- Funciona sin internet en zonas donde internet no existe
+- No requiere saldo, cuenta ni suscripción
+
+### Argumento político y científico
+
+Dos teléfonos viejos con el software Borg se convierten en un canal
+de comunicación universal y gratuito. El Borg no solo une silicio
+ocioso para procesar datos — también une comunidades rompiendo
+la barrera del idioma.
+
+*La soberanía lingüística es parte de la soberanía tecnológica.*
+
 
 **Interfaz:**
 La interacción prioriza eficiencia pura. Evita interfaces gráficas
