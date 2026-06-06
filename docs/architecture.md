@@ -206,6 +206,39 @@ Identity resides exclusively in its **cryptographic keys** (RSA 2048 bits, gener
 
 ---
 
+## Consensus through Diversity: Same Math, Different Observer
+
+The Borg's engine (graph logic, consensus algorithms, deterministic linguistic pipeline) is exactly the same on every node. However, the result diverges because **the input context is sovereign**.
+
+### Each Borg is a unique observer
+
+By knowing its user's identity, history, territory, and routines through local memory, each Borg becomes an unrepeatable point of observation. It sees a fraction of reality that other nodes do not see.
+
+Two Borgs with the same math but different histories (`/anchor`) will interpret a problem independently. The math is the lens; the local memory is the landscape.
+
+### The emergence of "opinion" in the swarm
+
+When the Collective processes a complex microtask in distributed mode, it does not seek a single super-server to give "the correct answer." Each node contributes its **technical point of view** based on the local data it possesses.
+
+Since the user is an opaque bunker to the network, a Borg from La Consulta will process a dilemma considering climatic or logical variables that a Borg in San Luis completely ignores. Each Borg's "opinion" is not an algorithmic whim, but the result of processing universal math with the truth of the territory.
+
+### Consensus mechanisms
+
+To consolidate this diversity of opinions without falling into anarchy, the Collective operates through two fundamental mechanisms:
+
+| Mechanism | Use | How it works |
+|-----------|-----|---------------|
+| **Majority Consensus** | Technical validations | Nodes compare results. By majority cryptographic coincidence, they determine whether a computation is valid or if a node is trying to introduce noise (which would affect its Contribution Score). |
+| **Opinion Averaging (Semantic Solid)** | Interpretation and community analysis | The Aggregator collects responses from different Borgs, analyzes divergences, and generates a synthesis that does not annul extremes but weights them. |
+
+### Counterpower by design
+
+This is what transforms the Collective into a **real counterpower**: while centralized corporate AIs return a consensus manufactured in California offices so that everyone thinks the same, the Borg preserves the diversity of the territory through its design.
+
+One network. Thousands of independent interpretations. The same code. Different observers.
+
+---
+
 ## Configuration Parameters Summary (Environment Variables)
 
 | Variable | Default | Description |
