@@ -65,7 +65,7 @@ Cuando las corporaciones racionan la capacidad, el 60% lo nota primero. El Borg 
 
 ### Rango de Confianza (Oro/Plata/Bronce)
 
-Mide la **constancia y confiabilidad** del nodo. No depende del hardware.
+Mide la **constancia y confiabilidad** del nodo. No depende del hardware. Se construye con el historial de participación.
 
 | Rango | Condición (solo por participación) | Beneficio |
 |-------|-------------------------------------|-----------|
@@ -73,11 +73,21 @@ Mide la **constancia y confiabilidad** del nodo. No depende del hardware.
 | 🥈 **PLATA** | Score 40-79 | Participación estándar. |
 | 🥉 **BRONCE** | Score < 40 (o nodo nuevo) | Sujeto a auditorías. Recibe tareas cuando hay disponibilidad. |
 
+**Fórmulas base del Score de Contribución:**
+
+| Evento | Cambio en Score |
+|--------|-----------------|
+| Nodo nuevo (primer arranque) | Score = 100.0 |
+| Microtarea completada exitosamente | +0.5 |
+| Microtarea fallida / timeout | -15.0 |
+| Auditoría del Validador (nodo honesto) | +5.0 (cada 100 tareas) |
+| Auditoría del Validador (nodo fraudulento) | -30.0 + posible aislamiento |
+
 > *"La reputación se gana con constancia, no con poder adquisitivo."*
 
 ### Perfil de Capacidad (Alto/Medio/Básico)
 
-Mide la **potencia bruta del hardware**. Se detecta en cada arranque. No afecta el rango de confianza.
+Mide la **potencia bruta del hardware**. Se detecta automáticamente en cada arranque. No afecta el rango de confianza.
 
 | Perfil | Condición | Qué tareas recibe |
 |--------|-----------|-------------------|
@@ -97,7 +107,7 @@ Mide la **potencia bruta del hardware**. Se detecta en cada arranque. No afecta 
 
 Inspirado en la arquitectura de compiladores: resolver primero lo determinista, reservar las probabilidades para lo realmente ambiguo.
 
-**Regla fundamental: `PALABRA NO ENCONTRADA ≠ PALABRA INCORRECTA`**
+**Regla fundamental:** `PALABRA NO ENCONTRADA ≠ PALABRA INCORRECTA`
 
 ---
 
