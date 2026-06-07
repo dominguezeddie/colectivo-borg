@@ -1,12 +1,36 @@
-# Colectivo B.O.R.G. — Dependencias
 # ====================================
-# Filosofía: dependencias mínimas para correr en hardware de 2011.
-# El Embrión funciona con biblioteca estándar de Python 3.8+ solamente.
+# Colectivo B.O.R.G. — Dependencies
+# ====================================
+# Philosophy: minimal dependencies to run on hardware from the last decade.
+# The Embryo works with Python 3.8+ standard library only.
+# ====================================
 
-# Opcional — detección automática de RAM y CPU (recomendado):
+# === EMBRYO PHASE (May - September 2026) ===
+# No external dependencies. Python standard library only.
+# P2P handshake, Write-Back persistence, and CB-001 work with pure Python.
+
+# === OPTIONAL — Hardware detection (recommended) ===
+# Allows the node to report its actual capacity to the Aggregator.
+# If not installed, the node uses conservative default values.
 # psutil>=5.9.0
 
-# Futuro Tejido — modelos tiny locales para microtareas reales:
-# openai-whisper==20231117   # transcripción de audio offline
-# Pillow>=10.0.0             # procesamiento de imágenes
-# numpy>=1.24.0              # cómputo numérico liviano
+# === FUTURE — CELL PHASE (October 2026 - January 2027) ===
+# Accessibility and cultural adaptation
+# pyttsx3>=2.90      # Text-to-Speech (TTS) offline
+# Vosk-API>=0.3.45   # Speech-to-Text (STT) offline lightweight
+
+# === FUTURE — TISSUE PHASE (2027) ===
+# Audio and image processing for real microtasks
+# openai-whisper>=20231117   # Offline audio transcription
+# Pillow>=10.0.0             # Image processing
+# numpy>=1.24.0              # Lightweight numerical computing
+
+# === FUTURE — ORGAN PHASE (2027-2028) ===
+# Offline translation and advanced persistence
+# argos-translate>=1.9.0     # P2P offline translation (CB-009)
+# cryptography>=41.0.0       # AES-256 encryption for backups (CB-014)
+
+# === FUTURE — ORGANISM PHASE (2028-2029) ===
+# Advanced interface and peer discovery
+# rich>=13.0.0               # Terminal enhancement (optional)
+# zeroconf>=0.131.0          # mDNS discovery (CB-019)
