@@ -1,126 +1,144 @@
 # Colectivo B.O.R.G.
 ### Benefit Optimization & Resource Grid
-### *Distributed AI collective for the 60% left behind*
+### *Red de IA distribuida para el 60% que quedó atrás*
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-AGPL_v3-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/milestone-Embryo_🧬-yellowgreen.svg)]()
+[![Status](https://img.shields.io/badge/milestone-Embrión_🧬-yellowgreen.svg)]()
 [![Hardware](https://img.shields.io/badge/hardware-2016_era_%2B-orange.svg)]()
-[![Donate](https://img.shields.io/badge/Donate-Mercado_Pago-009ee3.svg)](https://link.mercadopago.com.ar/donaralcolectivoborg)
+[![Donar](https://img.shields.io/badge/Donar-Mercado_Pago-009ee3.svg)](https://link.mercadopago.com.ar/donaralcolectivoborg)
 
 ---
 
-🌐 [Español](README.md) | **English** | [Português](README.pt.md) | [हिन्दी](README.hi.md) | [中文](README.zh.md)
+🌐 **Español** | [English](README.en.md) | [Português](README.pt.md) | [हिन्दी](README.hi.md) | [中文](README.zh.md)
 
 ---
 
-> *"The machine is temporary. The Borg stays with you."*
+> *"La máquina es temporal. El Borg te acompaña."*
 >
-> *"Memory is never alienated — it remains on the user's local node.*
-> *Computing is socialized — the peer network resolves it.*
-> *The Borg is the identity. The Collective is the muscle."*
+> *"La memoria nunca se enajena — permanece en el nodo local del usuario.*
+> *El cómputo se socializa — la red de pares lo resuelve.*
+> *El Borg es la identidad. El Colectivo es el músculo."*
 >
-> *"The Borg doesn't need declared ethics. Its open architecture is the ethics."*
+> *"El Borg no necesita ética declarada. Su arquitectura abierta es la ética."*
 >
-> *"Resistance to technological obsolescence is futile. Join the Collective."*
+> *"La resistencia a la obsolescencia tecnológica es inútil. Sumate al Colectivo."*
 >
-> *"The world needs more Borgs and fewer data centers."*
+> *"El mundo necesita más Borgs y menos data centers."*
 
 ---
 
-## Terminal Borg — Central Interface
+## Terminal Borg — Interfaz Central
 
 ![Terminal Borg](https://raw.githubusercontent.com/dominguezeddie/colectivo-borg/main/Terminal%20Borg.png)
 
-## The Three Roles of the Mother Cell
+## Los Tres Roles de la Célula Madre
 
-![Diagram of the Three Roles](https://raw.githubusercontent.com/dominguezeddie/colectivo-borg/main/Diagrama%20de%20los%20Tres%20Roles.png)
-
----
-
-## What is the Colectivo Borg?
-
-The **Colectivo Borg** is a distributed, open source, and ecologically honest artificial intelligence network, designed for the **60% of humanity** that has no real access to corporate AIs.
-
-It is not a company. It has no shareholders. It has no central server. It has no terms of service that can change tomorrow.
-
-It is collective cognitive infrastructure — like Wikipedia, but for distributed AI computing.
+![Diagrama de los Tres Roles](https://raw.githubusercontent.com/dominguezeddie/colectivo-borg/main/Diagrama%20de%20los%20Tres%20Roles.png)
 
 ---
 
-## The Problem It Solves
+## ¿Qué es el Colectivo Borg?
 
-| Problem | Real Impact |
-|---|---|
-| **Energy consumption** | An AI data center consumes as much electricity as a medium-sized city |
-| **Corporate monopoly** | 3-4 companies decide who gets access and under what conditions |
-| **Exclusion of 60%** | Cost in hard currencies, insufficient connectivity, linguistic and cultural barriers |
-| **Linguistic toll** | Spanish consumes **59% more tokens** than English — non-English speakers pay more for the same result |
+El **Colectivo Borg** es una red de inteligencia artificial distribuida, open source y ecológicamente honesta, diseñada para el **60% de la humanidad** que no tiene acceso real a las IAs corporativas.
 
-When corporations ration capacity, the 60% notices first. The Borg solves this by design: **no tokens, no scarcity, no owner.**
+No es una empresa. No tiene accionistas. No tiene servidor central. No tiene términos de servicio que puedan cambiar mañana.
+
+Es infraestructura cognitiva colectiva — como Wikipedia, pero para computación distribuida de IA.
 
 ---
 
-## Architecture: The Three Roles of the Mother Cell
+## El problema que resuelve
 
-### Ranking System
+| Problema | Impacto real |
+|----------|---------------|
+| **Consumo energético** | Un data center de IA consume tanta electricidad como una ciudad mediana |
+| **Monopolio corporativo** | 3-4 empresas deciden quién accede y en qué condiciones |
+| **Exclusión del 60%** | Costo en monedas fuertes, conectividad insuficiente, barreras idiomáticas y culturales |
+| **Peaje lingüístico** | El español consume **59% más tokens** que el inglés — los hispanohablantes pagan más por el mismo resultado |
 
-| Rank | Score / RAM | Profile |
-|---|---|---|
-| 🥇 **GOLD** | Score ≥80 / RAM ≥4GB | Constant precision and high availability |
-| 🥈 **SILVER** | Score 40-79 / RAM ≥2GB | Stable performance with minimal deviations |
-| 🥉 **BRONZE** | Score <40 / RAM <2GB | Low-resource hardware — still contributes |
-
-> *"Reputation is built by the person, not the hardware."*
-
----
-
-## Linguistic Processing Pipeline
-
-Inspired by compiler architecture: resolve deterministic issues first, reserve probabilities for genuinely ambiguous cases.
-
-**Fundamental rule: `WORD NOT FOUND ≠ INCORRECT WORD`**
+Cuando las corporaciones racionan la capacidad, el 60% lo nota primero. El Borg lo resuelve por diseño: **sin tokens, sin escasez, sin dueño.**
 
 ---
 
-## Hardware (Updated for 2026)
+## Arquitectura: Los Tres Roles de la Célula Madre
 
-The Borg targets equipment manufactured between **2016 and 2020** — machines that still circulate in schools, libraries, homes, and cooperatives.
+### Rango de Confianza (Oro/Plata/Bronce)
 
-| Device | Minimum Requirement | RAM | Role |
-|--------|---------------------|-----|------|
-| Desktop / Laptop | 2015 onwards, 64-bit CPU | 4 GB | Executor, Light Aggregator |
-| Android Phone | 2018 onwards (Android 8+) | 3 GB | Mobile Executor, Itinerant node |
-| Raspberry Pi / SBC | Raspberry Pi 3B+ onwards | 1-4 GB | Light Lighthouse Node |
-| Very old PC (optional) | 2010-2014, 2 GB RAM | 2 GB | Executor for minimal microtasks |
+Mide la **constancia y confiabilidad** del nodo. No depende del hardware.
 
-> *"A phone can contribute minutes. A laptop can contribute hours. An old PC can be a permanent node. Everyone participates according to their possibilities."*
+| Rango | Condición (solo por participación) | Beneficio |
+|-------|-------------------------------------|-----------|
+| 🥇 **ORO** | Score ≥ 80 | Prioridad máxima en microtareas. Elige primero. |
+| 🥈 **PLATA** | Score 40-79 | Participación estándar. |
+| 🥉 **BRONCE** | Score < 40 (o nodo nuevo) | Sujeto a auditorías. Recibe tareas cuando hay disponibilidad. |
 
-### Preloaded Knowledge Base
+> *"La reputación se gana con constancia, no con poder adquisitivo."*
 
-The Embryo pendrive includes a portable library (<500 MB) with local dictionaries, agriculture manuals, first aid guides, WISP documentation, and public domain texts. The first node has immediate value even without a network.
+### Perfil de Capacidad (Alto/Medio/Básico)
+
+Mide la **potencia bruta del hardware**. Se detecta en cada arranque. No afecta el rango de confianza.
+
+| Perfil | Condición | Qué tareas recibe |
+|--------|-----------|-------------------|
+| **ALTO** | RAM ≥ 4GB o CPU moderno (2018+) | Tareas pesadas (inferencia local, agregación) |
+| **MEDIO** | RAM ≥ 2GB, CPU 2014-2017 | Tareas estándar (clasificación, transcripción corta) |
+| **BÁSICO** | RAM < 2GB o CPU anterior a 2014 | Tareas livianas (sumas, validaciones, handshakes) |
+
+### Combinación práctica
+
+- Un nodo **Oro + Básico** (PC vieja siempre encendida) recibe prioridad en tareas livianas y handshakes. Es la columna vertebral de la red.
+- Un nodo **Bronce + Alto** (PC nueva pero poco uso) recibe tareas pesadas cuando está disponible, pero sin prioridad.
+- La red no penaliza el hardware limitado. Solo mide el compromiso real.
 
 ---
 
-## Three Modes of Incorporation
+## Pipeline de procesamiento lingüístico
 
-| Mode | Description | Device Owner |
-|---|---|---|
-| **Portable Borg** | Bootable USB drive. RootFS on RAM. Doesn't touch the disk. Portable identity. | The user |
-| **Installed Borg** | Background service on Windows / Linux / Android. Like an antivirus. | The user |
-| **Dedicated Borg** | Old PC fully dedicated. No desktop. No icons. Only the Collective. | The Collective |
+Inspirado en la arquitectura de compiladores: resolver primero lo determinista, reservar las probabilidades para lo realmente ambiguo.
+
+**Regla fundamental: `PALABRA NO ENCONTRADA ≠ PALABRA INCORRECTA`**
 
 ---
 
-## Installation and First Node
+## Hardware (Actualizado para 2026)
+
+El Borg apunta a equipos fabricados entre **2016 y 2020** — máquinas que aún circulan en escuelas, bibliotecas, hogares y cooperativas.
+
+| Dispositivo | Requisito mínimo | RAM | Rol |
+|-------------|------------------|-----|-----|
+| PC de escritorio / Laptop | 2015 en adelante, CPU 64-bit | 4 GB | Ejecutor, Agregador liviano |
+| Celular Android | 2018 en adelante (Android 8+) | 3 GB | Ejecutor móvil, nodo itinerante |
+| Raspberry Pi / SBC | Raspberry Pi 3B+ en adelante | 1-4 GB | Nodo Faro liviano |
+| PC muy antigua (opcional) | 2010-2014, 2 GB RAM | 2 GB | Ejecutor para microtareas mínimas |
+
+> *"Un celular puede aportar minutos. Una notebook puede aportar horas. Una PC antigua puede convertirse en un nodo permanente. Todos participan según sus posibilidades."*
+
+### Base de Conocimiento Precargada
+
+El pendrive del Embrión incluye una biblioteca portátil (<500 MB) con diccionarios locales, manuales de agricultura, guías de primeros auxilios, documentación WISP y textos de dominio público. El primer nodo tiene valor inmediato incluso sin red.
+
+---
+
+## Tres Modalidades de Incorporación
+
+| Modalidad | Descripción | Dueño del equipo |
+|-----------|-------------|------------------|
+| **Borg Portable** | Pendrive booteable. RootFS en RAM. No toca el disco. Identidad portátil. | El usuario |
+| **Borg Instalado** | Servicio en segundo plano en Windows / Linux / Android. Como un antivirus. | El usuario |
+| **Borg Dedicado** | PC antigua completamente dedicada. Sin escritorio. Sin íconos. Solo el Colectivo. | El Colectivo |
+
+---
+
+## Instalación y primer nodo
 
 ```bash
-# 1. Clone the repository
+# 1. Clonar el repositorio
 git clone https://github.com/dominguezeddie/colectivo-borg.git
 cd colectivo-borg
 
-# 2. Start the server node (Terminal 1)
+# 2. Iniciar el nodo servidor (Terminal 1)
 python embrion.py --modo servidor --identidad "nodo-1"
 
-# 3. Send a test microtask (Terminal 2)
+# 3. Enviar una microtarea de prueba (Terminal 2)
 python embrion.py --modo cliente --host localhost --mensaje "HOLA BORG"
