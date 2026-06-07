@@ -5,8 +5,8 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-AGPL_v3-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/milestone-Embryo_🧬-yellowgreen.svg)]()
-[![Hardware](https://img.shields.io/badge/hardware-Windows_7_era_%2B-orange.svg)]()
-[![Donar con Mercado Pago](https://img.shields.io/badge/Donar-Mercado_Pago-009ee3.svg)](https://link.mercadopago.com.ar/donaralcolectivoborg)
+[![Hardware](https://img.shields.io/badge/hardware-2016_era_%2B-orange.svg)]()
+[![Donate](https://img.shields.io/badge/Donate-Mercado_Pago-009ee3.svg)](https://link.mercadopago.com.ar/donaralcolectivoborg)
 
 ---
 
@@ -15,6 +15,10 @@
 ---
 
 > *"The machine is temporary. The Borg stays with you."*
+>
+> *"Memory is never alienated — it remains on the user's local node.*
+> *Computing is socialized — the peer network resolves it.*
+> *The Borg is the identity. The Collective is the muscle."*
 >
 > *"The Borg doesn't need declared ethics. Its open architecture is the ethics."*
 >
@@ -59,31 +63,13 @@ When corporations ration capacity, the 60% notices first. The Borg solves this b
 
 ## Architecture: The Three Roles of the Mother Cell
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                      COLECTIVO BORG                          │
-│                                                              │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │
-│  │  VALIDATOR  │    │  AGGREGATOR │    │   EXECUTOR  │      │
-│  │ "The Auditor"│   │"The Synth." │    │ "The Muscle"│      │
-│  │             │    │             │    │             │      │
-│  │ Verifies    │    │ Assembles   │    │ Processes   │      │
-│  │ data        │    │ partial     │    │ atomic      │      │
-│  │ integrity   │    │ results     │    │ microtasks  │      │
-│  └─────────────┘    └─────────────┘    └─────────────┘      │
-│                                                              │
-│            ATOMIC MICROTASKS (1 to 30 seconds)              │
-│               Immune to disconnections                       │
-└──────────────────────────────────────────────────────────────┘
-```
-
 ### Ranking System
 
 | Rank | Score / RAM | Profile |
 |---|---|---|
 | 🥇 **GOLD** | Score ≥80 / RAM ≥4GB | Constant precision and high availability |
 | 🥈 **SILVER** | Score 40-79 / RAM ≥2GB | Stable performance with minimal deviations |
-| 🥉 **BRONZE** | Score <40 / RAM <2GB | 2011-era hardware — resistance is futile, it still contributes |
+| 🥉 **BRONZE** | Score <40 / RAM <2GB | Low-resource hardware — still contributes |
 
 > *"Reputation is built by the person, not the hardware."*
 
@@ -93,28 +79,26 @@ When corporations ration capacity, the 60% notices first. The Borg solves this b
 
 Inspired by compiler architecture: resolve deterministic issues first, reserve probabilities for genuinely ambiguous cases.
 
-```
-Input text
-      │
-      ▼
-┌──────────────────┐
-│  LEXICAL ANALYSIS│  → Tokenize + search hash dictionary O(1)
-│  (deterministic) │  → KNOWN / UNCERTAIN / SPECIAL
-└────────┬─────────┘
-         │  Clean ground — verified certainties
-         ▼
-┌──────────────────┐
-│SYNTACTIC ANALYSIS│  → Grammar structure on verified ground
-└────────┬─────────┘
-         │
-         ▼
-┌──────────────────┐
-│   PROBABILISTIC  │  → LLM works with fewer tokens and less noise
-│    INFERENCE     │  → The 59% linguistic toll is reduced here
-└──────────────────┘
-```
-
 **Fundamental rule: `WORD NOT FOUND ≠ INCORRECT WORD`**
+
+---
+
+## Hardware (Updated for 2026)
+
+The Borg targets equipment manufactured between **2016 and 2020** — machines that still circulate in schools, libraries, homes, and cooperatives.
+
+| Device | Minimum Requirement | RAM | Role |
+|--------|---------------------|-----|------|
+| Desktop / Laptop | 2015 onwards, 64-bit CPU | 4 GB | Executor, Light Aggregator |
+| Android Phone | 2018 onwards (Android 8+) | 3 GB | Mobile Executor, Itinerant node |
+| Raspberry Pi / SBC | Raspberry Pi 3B+ onwards | 1-4 GB | Light Lighthouse Node |
+| Very old PC (optional) | 2010-2014, 2 GB RAM | 2 GB | Executor for minimal microtasks |
+
+> *"A phone can contribute minutes. A laptop can contribute hours. An old PC can be a permanent node. Everyone participates according to their possibilities."*
+
+### Preloaded Knowledge Base
+
+The Embryo pendrive includes a portable library (<500 MB) with local dictionaries, agriculture manuals, first aid guides, WISP documentation, and public domain texts. The first node has immediate value even without a network.
 
 ---
 
@@ -126,22 +110,6 @@ Input text
 | **Installed Borg** | Background service on Windows / Linux / Android. Like an antivirus. | The user |
 | **Dedicated Borg** | Old PC fully dedicated. No desktop. No icons. Only the Collective. | The Collective |
 
-> *"A phone can contribute minutes. A laptop can contribute hours. An old PC can be a permanent node. Everyone participates according to their possibilities."*
-
----
-
-## Minimum Requirements
-
-Designed for hardware capable of running **Windows 7 or later** (2007 onwards):
-
-| Component | Minimum | Notes |
-|---|---|---|
-| CPU | x86/x64, any post-2007 | Core 2 Duo, i3 2011, AMD FX — all valid |
-| RAM | 512 MB | 1 GB recommended for RootFS on RAM |
-| Network | WiFi / Ethernet / Mobile data | Intermittent connectivity tolerated |
-| Python | 3.8+ | 3.12 recommended |
-| External dependencies | **None** | Standard Python library only |
-
 ---
 
 ## Installation and First Node
@@ -151,71 +119,8 @@ Designed for hardware capable of running **Windows 7 or later** (2007 onwards):
 git clone https://github.com/dominguezeddie/colectivo-borg.git
 cd colectivo-borg
 
-# 2. Start the Executor node (Terminal 1)
-python main.py
+# 2. Start the server node (Terminal 1)
+python embrion.py --modo servidor --identidad "nodo-1"
 
 # 3. Send a test microtask (Terminal 2)
-python emisor.py --texto "The house was very big and had a garden."
-```
-
----
-
-## Roadmap (Biological Milestones)
-
-| Milestone | Status | Objective |
-|---|---|---|
-| 🧬 **Embryo** | ✅ In progress | Two nodes communicating with protocol and confirmation |
-| 🦠 **Cell** | ⏳ Pending | Three nodes, differentiated roles, basic failover |
-| 🧵 **Tissue** | ⏳ Pending | Working reputation + first real useful task (audio/image/text) |
-| 🫀 **Organ** | ⏳ Pending | Bootable USB drive, portable cryptographic identity |
-| 🌐 **Organism** | ⏳ Pending | Public network, embedded OS, Terminal Borg, active community |
-
----
-
-## Why the Borg Is Incorruptible
-
-| Aspect | Corporate AI | Colectivo Borg |
-|---|---|---|
-| Owner | A corporation with shareholders | Nobody. The network belongs to everyone. |
-| Code | Closed and secret | Open — auditable by anyone |
-| Incentive | Maximize corporate profit | Common good |
-| Corruption | Possible in silence | Impossible — the code is public |
-| Corporate acquisition | Possible | **Impossible** — no central asset to buy |
-
-> *"The Borg cannot be bought. There is no central asset to acquire."*
-
----
-
-## About the Origin
-
-**Raúl Edmundo "Eddie" Domínguez** — La Consulta, Mendoza, Argentina.
-
-University-level Microprocessor Technician. 25 years as a WISP network operator.
-
-This project does not come from a corporate laboratory. It comes from the field — from someone who saw the problem up close for decades and decided to build the solution. Born in May 2026.
-
-Sustained by voluntary donations — Wikipedia / Linux model.
-
----
-
-## Contributing
-
-The Borg grows like a living organism. The community is the immune system.
-
-1. Fork the repository
-2. Branch: `git checkout -b feature/clear-description`
-3. Commit: `git commit -m "description of the problem it solves"`
-4. Pull Request with context
-
-Any device with Python can be a node.
-Any person with the same spirit can contribute.
-
----
-
-## License
-
-**AGPL v3** — This belongs to everyone, but to no one in particular so that it can be closed.
-
----
-
-*Assimilation begins here.*
+python embrion.py --modo cliente --host localhost --mensaje "HOLA BORG"
