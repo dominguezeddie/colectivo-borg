@@ -1,0 +1,36 @@
+# ====================================
+# Colectivo B.O.R.G. — Dependencias
+# ====================================
+# Filosofía: dependencias mínimas para correr en hardware de la última década.
+# El Embrión funciona con biblioteca estándar de Python 3.8+ solamente.
+# ====================================
+
+# === FASE EMBRIÓN (Mayo - Septiembre 2026) ===
+# Sin dependencias externas. Solo biblioteca estándar de Python.
+# El handshake P2P, persistencia Write-Back y CB-001 funcionan con Python puro.
+
+# === OPCIONAL — Detección de hardware (recomendada) ===
+# Permite al nodo reportar su capacidad real al Agregador.
+# Si no está instalada, el nodo usa valores conservadores por defecto.
+# psutil>=5.9.0
+
+# === FUTURO — FASE CÉLULA (Octubre 2026 - Enero 2027) ===
+# Accesibilidad y adaptación cultural
+# pyttsx3>=2.90      # Text-to-Speech (TTS) offline
+# Vosk-API>=0.3.45   # Speech-to-Text (STT) offline liviano
+
+# === FUTURO — FASE TEJIDO (2027) ===
+# Procesamiento de audio e imágenes para microtareas reales
+# openai-whisper>=20231117   # Transcripción de audio offline
+# Pillow>=10.0.0             # Procesamiento de imágenes
+# numpy>=1.24.0              # Cómputo numérico liviano
+
+# === FUTURO — FASE ÓRGANO (2027-2028) ===
+# Traducción offline y persistencia avanzada
+# argos-translate>=1.9.0     # Traducción P2P offline (CB-009)
+# cryptography>=41.0.0       # Cifrado AES-256 para backups (CB-014)
+
+# === FUTURO — FASE ORGANISMO (2028-2029) ===
+# Interfaz avanzada y descubrimiento de pares
+# rich>=13.0.0               # Mejora de terminal (opcional)
+# zeroconf>=0.131.0          # Descubrimiento mDNS (CB-019)
