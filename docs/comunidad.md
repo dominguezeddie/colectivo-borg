@@ -36,9 +36,9 @@ No hace falta saber programar para ser parte del Colectivo.
 - Va directo a: hardware comunitario, ancho de banda de nodos semilla,
   pendrives para distribuir el sistema en escuelas rurales
 
-> *"Yo no entiendo de código, pero este mes aporté el equivalente
-> a dos litros de nafta para que el nodo Borg de la biblioteca
-> popular siga encendido."*
+> *"Yo no entiendo de código, pero este mes aporté el equivalente*
+> *a dos litros de nafta para que el nodo Borg de la biblioteca*
+> *popular siga encendido."*
 >
 > Eso es soberanía tecnológica comunitaria.
 
@@ -82,26 +82,6 @@ La transparencia no se pide — se computa.
 
 La construcción institucional sigue las mismas fases que el software:
 
-```
-Embrión (Hoy)
-  → Transparencia individual
-  → GitHub Sponsors / Cafecito
-  → El dinero que entra se transforma en hardware público visible
-        │
-        ▼
-Tejido (Mediano plazo)
-  → Cooperativismo de hecho
-  → Alianzas con WISPs locales, universidades y cooperativas
-  → El Borg se apoya en estructuras legales existentes
-        │
-        ▼
-Órgano (Largo plazo)
-  → Fundación Colectivo Borg
-  → Personería jurídica formal
-  → Para ese momento, no será una cáscara vacía buscando fondos
-  → Será el reflejo legal de una comunidad que ya opera
-```
-
 ---
 
 ## Por qué el modelo Fundación es el correcto
@@ -125,6 +105,90 @@ y el software libre.
 
 ---
 
+## Lo que la Fundación puede hacer que ninguna corporación hará
+
+Una fundación con presencia territorial puede hacer cosas muy concretas
+que ningún proyecto de software corporativo puede ni quiere hacer —
+porque no les interesa y no tienen la estructura para hacerlo.
+
+- **Verificación de hardware en campo:** alguien va a la escuela rural,
+  ve qué tienen, evalúa si puede correr el Borg, lo instala, lo deja
+  funcionando y hace seguimiento. Eso no lo hace ninguna app store.
+
+- **Compra al por mayor de pendrives:** con fondos colectivos se compran
+  500 pendrives con el sistema ya grabado y se distribuyen donde más se
+  necesitan — no donde hay más mercado.
+
+- **Red de técnicos territoriales:** la experiencia WISP del autor ya
+  implica conocer esa red — los técnicos que instalan antenas en zonas
+  rurales, los que saben dónde hay conectividad y dónde no. Esa red
+  humana ya existe. La fundación le da estructura y recursos.
+
+- **Criterios de prioridad reales:** una escuela rural sin recursos tiene
+  prioridad sobre una oficina urbana. Eso solo lo puede decidir una
+  institución con valores explícitos — no un algoritmo de mercado.
+
+La fundación convierte donaciones en hardware visible y trazable.
+Alguien dona el equivalente a dos pendrives, y puede ver en el reporte
+anual que esos dos pendrives están en la biblioteca de San Rafael
+funcionando como nodos. Eso construye confianza real. Y la confianza
+trae más donaciones.
+
+---
+
+## Redistribución Global: del Norte al Sur
+
+Una fundación con sedes en distintos países puede recaudar donde hay más
+capacidad económica y redistribuir donde hay más necesidad real. Los
+recursos llegan desde Alemania, Suecia o Canadá y se redistribuyen en
+África, Asia o Latinoamérica rural. El dinero no se queda donde se
+genera — va donde se necesita.
+
+Esto tiene un nombre en el mundo de las ONGs: flujo Sur-Sur mediado por
+el Norte. Wikipedia funciona así. Recauda principalmente en países ricos
+y sirve principalmente a países pobres. El Borg agrega una dimensión que
+Wikipedia no tiene: hardware físico.
+
+Cuando la sede alemana de la Fundación Borg compra 10.000 pendrives y
+los envía a África, eso no es caridad — es infraestructura. La caridad
+crea dependencia. La infraestructura crea capacidad propia. Esos 10.000
+pendrives no le dan a África acceso a una IA corporativa que puede
+cortarse mañana. Le dan nodos propios, identidad criptográfica propia,
+reputación propia dentro del Colectivo. Eso no se puede quitar.
+
+---
+
+## El Nodo Móvil Comunitario: el celular viejo como infraestructura
+
+En África y Asia el celular viejo es mucho más común que una PC vieja.
+No hay PC de biblioteca — hay un Android de 2018 en el bolsillo de
+casi todo el mundo. La fundación puede recibir donaciones de celulares
+viejos, grabarles el sistema y distribuirlos como nodos comunitarios
+móviles — no como teléfonos personales sino como infraestructura
+compartida.
+
+El concepto es el equivalente móvil del Borg Dedicado:
+
+- El celular arranca.
+- No hay apps, no hay redes sociales, no hay nada.
+- Solo aparece el Terminal Borg y la conexión a internet.
+- El celular deja de ser un dispositivo personal y se convierte en un
+  nodo comunitario.
+
+Técnicamente se implementa con modo kiosk de Android, launcher
+personalizado que reemplaza la pantalla de inicio con el Terminal Borg,
+o ROM mínima con solo Python y el núcleo Borg para hardware muy viejo.
+
+Una escuela rural en Tanzania recibe 20 celulares viejos donados desde
+Alemania, todos con el Borg grabado, conectados al WiFi de la escuela.
+Eso es un cluster de 20 nodos por el costo de envío. El celular viejo
+que en Europa o en Buenos Aires va al cajón de basura electrónica, en
+manos de la Fundación Borg se convierte en infraestructura cognitiva
+comunitaria para una escuela en Mozambique o en Haití. Eso no existe en
+ningún lado hoy.
+
+---
+
 ## Nodos Faro
 
 Un **Nodo Faro** es un nodo permanente, estable y público
@@ -137,8 +201,49 @@ Puede vivir en:
 - Una sede de una asociación vecinal
 - Una universidad pública
 
+### Estrategia de masa crítica local
+
+El Colectivo no necesita 10.000 nodos globales para ser útil. Necesita
+clústeres locales funcionales.
+
+Un Nodo Faro en una escuela rural de San Luis, otro en una biblioteca de
+Mendoza y otro en una cooperativa de Chilecito — esos tres nodos ya
+generan valor para esas comunidades. La red crece por anexión
+territorial, no por acumulación planetaria anónima.
+
+La masa crítica no es un número mágico. Es la cantidad de nodos
+necesarios para que un usuario obtenga una respuesta útil más rápido de
+lo que tardaría sin la red. En una red pequeña pero confiable, eso puede
+ser tan solo 5 nodos.
+
 Si tu organización quiere ser sede de un Nodo Faro,
 abrí un Issue con el título: `[NODO FARO] Nombre de la institución — Ciudad, País`
+
+---
+
+## El primer nodo no está solo: el valor de ser pionero
+
+El dilema del primer nodo — "¿para qué conectarse a una red vacía?" —
+se resuelve con tres pilares que entregan valor inmediato desde el Día Cero:
+
+**1. El Borg como búnker cognitivo local:** CB-001 organiza el pensamiento
+en RAM, la persistencia Write-Back protege la memoria con privacidad física,
+y la base de conocimiento precargada (manuales, guías WISP, textos de dominio
+público) convierte el pendrive en una biblioteca portátil sin internet.
+
+**2. Minería de reputación temprana:** los primeros nodos reciben un
+multiplicador en su Score de Contribución (x2, x3) y acumulan prioridad
+absoluta para cuando la red escale. Ser pionero no es un acto de fe —
+es una inversión con retorno garantizado en prioridad futura.
+
+**3. El parásito bueno:** si el Colectivo aún está vacío, el nodo local
+se conecta a Wikipedia, repositorios open source y bibliotecas digitales,
+entregando información al usuario limpia de rastreo comercial y publicidad.
+El Borg "hace cosas" desde el primer día, aunque por debajo use cañerías
+prestadas mientras construye las propias.
+
+> *"El primer nodo no se conecta porque le prometen un futuro esplendoroso.*
+> *Se conecta porque el Borg individual ya le sirve hoy."*
 
 ---
 
