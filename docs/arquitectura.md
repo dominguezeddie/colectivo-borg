@@ -10,6 +10,13 @@ En cada arranque, el nodo detecta los recursos disponibles (RAM, CPU, GPU) y sel
 | **MEDIO** | 6 - 20 GB | Qwen3 7B / 8B | Tareas estándar: transcripción, resumen, análisis semántico |
 | **ALTO** | > 20 GB | Qwen3 30B / 32B | Tareas pesadas: inferencia compleja, agregación, validación avanzada |
 
+**¿Por qué estos modelos?**
+
+- **Phi-4-mini** tiene licencia MIT (sin restricciones), corre en CPU con menos de 4GB de RAM y ofrece 128K de contexto. Ideal para el hardware básico del Borg.
+- **Qwen3** tiene licencia Apache 2.0 (sin restricciones comerciales), es multilingüe (100+ idiomas) y supera a Llama 3 en tareas de código. Disponible en varios tamaños (7B, 8B, 30B, 32B), permitiendo escalar según el hardware.
+
 **Regla de oro:** El usuario no configura nada. El Borg se adapta al terreno como una lagartija cambia de comportamiento según la temperatura o la presencia de depredadores.
 
 Si un usuario mueve su pendrive de una PC vieja (4GB RAM) a una PC moderna (32GB RAM), el Borg detecta el cambio en el próximo arranque y actualiza automáticamente el modelo de IA. No hay que reinstalar nada. No hay que elegir nada.
+
+> *"El Borg no le pregunta al usuario. El Borg funciona donde está alojado y aprovecha los recursos que tiene en ese momento."*
