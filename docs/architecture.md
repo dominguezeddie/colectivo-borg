@@ -1,27 +1,15 @@
-## Reputation and Capacity System
+### Automatic AI Model Selection
 
-### Trust Rank (Gold/Silver/Bronze)
+The Borg does not ask the user which AI model to use. It offers no options. It asks no permission.
 
-Measures the node's **consistency and reliability**. Does not depend on hardware.
+On each boot, the node detects available resources (RAM, CPU, GPU) and automatically selects the most suitable model for that hardware:
 
-| Rank | Condition (participation only) | Benefit |
-|------|--------------------------------|---------|
-| **GOLD** | Score ≥ 80 | Maximum priority in microtasks. Chooses first. |
-| **SILVER** | Score 40-79 | Standard participation. |
-| **BRONZE** | Score < 40 (or new node) | Subject to audits. Receives tasks when available. |
+| Hardware profile | Available RAM | Selected model | Usage |
+|------------------|---------------|----------------|-------|
+| **BASIC** | < 6 GB | Phi-4-mini (3.8B) | Light tasks: classification, lexical validation, handshakes |
+| **MEDIUM** | 6 - 20 GB | Qwen3 7B / 8B | Standard tasks: transcription, summarization, semantic analysis |
+| **HIGH** | > 20 GB | Qwen3 30B / 32B | Heavy tasks: complex inference, aggregation, advanced validation |
 
-### Capacity Profile (High/Medium/Basic)
+**Golden rule:** The user configures nothing. The Borg adapts to the terrain like a lizard changes behavior according to temperature or the presence of predators.
 
-Measures the **hardware's raw power**. Detected on each boot.
-
-| Profile | Condition | What tasks it receives |
-|---------|-----------|------------------------|
-| **HIGH** | RAM ≥ 4GB or modern CPU (2018+) | Heavy tasks (local inference, aggregation) |
-| **MEDIUM** | RAM ≥ 2GB, CPU 2014-2017 | Standard tasks (classification, short transcription) |
-| **BASIC** | RAM < 2GB or CPU pre-2014 | Light tasks (sums, validations, handshakes) |
-
-### Practical Combination
-
-- A **Gold + Basic** node (old PC always on) receives priority for light tasks and handshakes. It is the backbone of the network.
-- A **Bronze + High** node (new PC but rarely used) receives heavy tasks when available, but without priority.
-- The network does not penalize limited hardware. It only measures real commitment.
+If a user moves their pendrive from an old PC (4GB RAM) to a modern PC (32GB RAM), the Borg detects the change on the next boot and automatically updates the AI model. No reinstallation. No choices. Nothing to configure.
