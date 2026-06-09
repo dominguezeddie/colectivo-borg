@@ -28,6 +28,27 @@
 
 ---
 
+## ¿Por qué no compramos GPUs? (El Borg vs. Nvidia)
+
+Mientras **Nvidia** vende chips RTX Spark de 3000€ con 128GB de memoria unificada para que el 5% tenga una "IA de lujo" en su escritorio, el **Colectivo Borg** construye con el 60% usando:
+
+- 🖥️ **PCs de bibliotecas** (2016-2020, 4GB RAM)
+- 💾 **Pendrives de 128GB** con identidad criptográfica
+- 📱 **Celulares viejos con Android 8** como nodos móviles
+- 🌍 **La red de nodos que ya está encendida** en escuelas, cooperativas y hogares
+
+| | **Nvidia / Microsoft** | **Colectivo Borg** |
+|--|------------------------|---------------------|
+| **Poder** | Está en el chip (y en la nube que controlan) | Está en la **cantidad de nodos** |
+| **Software** | Cerrado, depende de CUDA y suscripciones | **Abierto**, auditable por cualquiera (AGPL v3) |
+| **Costo** | Miles de dólares + suscripción por tokens | **Gratis**. El costo es tu máquina encendida |
+| **Sin internet** | No funciona (depende de la nube) | **Modo Local autónomo** (sigue funcionando) |
+| **Propósito** | Electrodoméstico de IA para el 5% | **Infraestructura cognitiva para el 60%** |
+
+> *No competimos en el mismo mercado. Construimos el que ellos ignoran.*
+
+---
+
 ## Terminal Borg — Interfaz Central
 
 ![Terminal Borg](https://raw.githubusercontent.com/dominguezeddie/colectivo-borg/main/Terminal%20Borg.png)
@@ -152,3 +173,13 @@ python embrion.py --modo servidor --identidad "nodo-1"
 
 # 3. Enviar una microtarea de prueba (Terminal 2)
 python embrion.py --modo cliente --host localhost --mensaje "HOLA BORG"
+
+---
+
+## Resumen de cambios
+
+| Sección | Qué agregué |
+|---------|-------------|
+| **"¿Por qué no compramos GPUs?"** | Nueva sección insertada después de las frases iniciales y antes de "Terminal Borg — Interfaz Central" |
+| Tabla comparativa | Borg vs Nvidia/Microsoft (Poder, Software, Costo, Sin internet, Propósito) |
+| Mensaje final | "No competimos en el mismo mercado. Construimos el que ellos ignoran." |
